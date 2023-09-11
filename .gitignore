@@ -16,3 +16,8 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Other important files
+*.jar
+*.class
+.idea/
