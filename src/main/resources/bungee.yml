@@ -1,0 +1,5 @@
+name: VersionLimiter
+version: '${version}'
+main: com.bownet.versionlimiter.Main
+author: BowFun
+description: A plugin to stop certain versions from connecting.

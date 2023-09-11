@@ -1,0 +1,27 @@
+# VersionLimiter by BowFun
+# A plugin to limit versions from connecting to your server.
+# Made for Bow Network.
+
+# WARNING: This default config will block any client under 1.17 from connecting! Edit this if needed.
+
+# What do you want the kick message to be?
+# This is shown if the version isn't allowed.
+# Use the & color codes for color.
+KickMessage: "&7[&4&lSERVER&7] &cYour Minecraft version isn't compatible with this server! Use 1.17+."
+
+# Do you want to use the list as a whitelist instead of a blacklist?
+UseAsWhitelist: true
+
+# The list of versions either whitelisted or blacklisted (reference above) on the server.
+# WARNING: This uses a Protocol Version! This does not support Pre-release versions.
+# Reference: https://minecraft.fandom.com/wiki/Protocol_version#List_of_protocol_versions
+Versions:
+  - 755
+  - 756
+  - 757
+  - 758
+  - 759
+  - 760
+  - 761
+  - 762
+  - 763
